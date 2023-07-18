@@ -1,0 +1,151 @@
+.productos{
+    display: flex;
+    padding: 5%;
+    justify-content: space-around;
+    background: #f5f5f5;
+}
+.div-productos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productos-titulo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.productos-buttom-agregar-producto{
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background:  #2A7AE4;
+    border: none;
+}
+.productos-agregar{
+    color:  #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.consolas{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.listas-pruductos{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.todo-producto{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.nombre-producto{
+    color:  #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.precio-producto{
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.codigo-producto{
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.productos-div1{
+    display: flex;
+    width: 176px;
+    height: 174px;
+    background:url("img/control.png");
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 3px;
+}
+.productos-div2{
+    display: flex;
+    width: 176px;
+    height: 174px;
+    background:url("img/consola.png");
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 3px;
+}
+.productos-div3{
+    display: flex;
+    width: 176px;
+    height: 174px;
+    background:url("img/consola-vieja.png");
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 3px;
+}
+.productos-div4{
+    display: flex;
+    width: 176px;
+    height: 174px;
+    background:url("img/switch.png");
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 3px;
+}
+.productos-div5{
+    display: flex;
+    width: 176px;
+    height: 174px;
+    background:url("img/consola-xbox.png");
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 3px;
+}
+.productos-div6{
+    display: flex;
+    width: 176px;
+    height: 174px;
+    background:url("img/atari.png");
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 3px;
+}
+.edit{
+    cursor: pointer;
+}
+.delete{
+    cursor: pointer;
+}
+@media (max-width: 768px){
+.div-productos{
+    flex-direction: column;
+    align-items: baseline;
+}
+.todo-producto{
+    width: 161px;
+    gap: 10px;
+}
+}

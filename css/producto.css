@@ -1,0 +1,107 @@
+.producto{
+    display: flex;
+    gap: 16px;
+}
+.producto-div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+}
+.imagen-producto{
+    width: 560px;
+    height: 403px;
+}
+.nombre-producto-titulo{
+    color:  #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.precio-producto-titulo{
+    color:  #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.descripcion-producto{
+    color:  #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.productos{
+    display: flex;
+    padding: 5%;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #F5F5F5;
+    gap: 64px;
+}
+.div-productos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productos-titulo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.consolas{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.listas-pruductos{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.lista-consola{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.nombre-producto{
+    color:  #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.precio-producto{
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.link-producto{
+    color: #2A7AE4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@media (max-width: 768px){
+.producto{
+    flex-direction: column;
+}
+.imagen-producto{
+    width: 200px;
+    height: auto;
+}
+}

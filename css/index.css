@@ -1,0 +1,101 @@
+
+.banner{
+    display: flex;
+    background-image: url("img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    padding: 5%;
+    justify-content: flex-end;
+    gap: 16px;
+    align-items: flex-start;
+    
+}
+.banner-titulo{
+    color:  #FFF;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner-subtitulo{
+    color:  #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ver-consolas-buttom{
+    padding: 16px;
+    background-color: #2A7AE4;
+    color: white;
+    border: none;
+}
+.productos{
+    display: flex;
+    margin: 5%;
+    justify-content: space-around;
+}
+.div-productos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productos-titulo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.productos-vertodo{
+    color: #2A7AE4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.consolas{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.listas-pruductos{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.lista-consola{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.nombre-producto{
+    color:  #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.precio-producto{
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.link-producto{
+    color: #2A7AE4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
